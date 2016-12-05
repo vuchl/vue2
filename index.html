@@ -4,14 +4,11 @@
     <meta charset="utf-8">
     <title>vue2</title>
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
-    <style>
-    * {
-      font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    }
-    </style>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   </head>
-  <body>
-    <div id="app">
+  <body style="height: 100%">
+    <div id="app" v-md-theme="'default'" style="height: 100vh; display: flex; align-items: center; justify-content: center">
       <router-view></router-view>
     </div>
     <!-- built files will be auto injected -->

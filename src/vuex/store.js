@@ -4,7 +4,8 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  version: '0.0.1'
+  version: '2.0.1',
+  title: 'Kalkulationsprogramm Wartungsverträge und Anschlussgarantie'
 }
 
 const mutations = {}

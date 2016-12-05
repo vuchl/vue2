@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "element-ui": "^1.0.3",
-    "vue": "^2.1.0"
+    "vue": "^2.1.0",
+    "vue-material": "^0.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
