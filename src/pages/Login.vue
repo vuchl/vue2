@@ -39,7 +39,7 @@ export default {
       },
       identifiers: {
         name: 'Kennung',
-        password: 'Password',
+        password: 'Passwort',
         submit: 'Login'
       }
     }
